@@ -1,0 +1,9 @@
+{
+  "scanned": "2026-10-08",
+  "framework": "Next.js 16 App Router",
+  "fonts_before": ["Manrope", "IBM Plex Mono"],
+  "palette_before": "hex custom properties in app/globals.css :root (carbon #111417, orange #e56a24, machine #f2f1ec)",
+  "motion": "motion-cut (no motion library)",
+  "spacing": "none",
+  "preserved": ["lib/contact.ts", "ScrollReveal", "request form WhatsApp logic", "next.config.mjs", "components/ui/button.tsx"]
+}

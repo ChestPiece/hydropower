@@ -1,0 +1,55 @@
+/* Hallmark tokens · custom theme "Spec Sheet" · Manrope + IBM Plex Mono per owner brief · anchor hue 47 (brand orange) */
+:root {
+  /* Colour */
+  --color-paper: oklch(96% 0.010 85);
+  --color-paper-2: oklch(92.5% 0.012 85);
+  --color-rule: oklch(79% 0.012 80);
+  --color-ink: oklch(19% 0.012 60);
+  --color-ink-2: oklch(38% 0.012 60);
+  --color-muted: oklch(45% 0.010 70);
+  --color-ink-rule: oklch(36% 0.012 60);
+  --color-on-ink: oklch(94% 0.008 85);
+  --color-on-ink-muted: oklch(78% 0.010 80);
+  --color-accent: oklch(66% 0.18 47);
+  --color-accent-hover: oklch(71% 0.18 50);
+  --color-accent-ink: oklch(48% 0.15 45);
+  --color-focus: oklch(55% 0.20 260);
+  --color-focus-on-ink: oklch(78% 0.14 250);
+  --color-error: oklch(48% 0.19 28);
+  --color-success: oklch(45% 0.12 150);
+
+  /* Type */
+  --font-display: var(--font-manrope), system-ui, sans-serif;
+  --font-body: var(--font-manrope), system-ui, sans-serif;
+  --font-outlier: var(--font-plex-mono), ui-monospace, monospace;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-md: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.75rem;
+  --text-2xl: clamp(1.875rem, 4vw, 3.25rem);
+  --text-display: clamp(2.25rem, 6vw, 5rem);
+
+  /* Space (4-pt) */
+  --space-3xs: 0.25rem;
+  --space-2xs: 0.5rem;
+  --space-xs: 0.75rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+  --space-2xl: 4.5rem;
+  --space-3xl: 7rem;
+  --page-gutter: clamp(1.25rem, 6vw, 7.5rem);
+  --header-h: 4rem;
+
+  /* Rules, radius, motion */
+  --rule-hair: 1px;
+  --rule-slab: 2px;
+  --radius-0: 0;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-short: 160ms;
+  --dur-med: 220ms;
+  --dur-reveal: 500ms;
+}
